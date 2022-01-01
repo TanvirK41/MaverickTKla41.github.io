@@ -1,0 +1,37 @@
+name: "Website Settings"
+output_dir: "."
+navbar:
+  title: "Home"
+  left:
+
+  right:
+    - text: Sections
+      menu:
+      - text: "Home"
+        href: index.html    
+      - text: "Data Pre-Processing"
+        href: data_cleaning_and_merging.html
+      - text: "Exploratory Analysis"
+        href: exploratory_analysis.html
+      - text: "Statistical Analysis"
+        href: statistical_analysis.html
+      - text: "Additional Prediction"
+        href: additional_prediction.html   
+      - text: "Interactive Map"
+        href: https://datasciencetk.shinyapps.io/COVID19-NYC-trends/
+      - text: "Trend Over Time (Dashboard)"
+        href: dashboard.html
+      - text: "Full Report"
+        href: project_report.html
+      - text: "Contact Us"
+        href: ProjectCode.html
+      - icon: fa-github fa-lg
+        href: https://github.com/jimmymkelliher/p8105_final
+output:
+  html_document:
+    theme: journal
+
+
+    
+    
+   
